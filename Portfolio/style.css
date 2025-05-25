@@ -1,0 +1,87 @@
+/* style.css */
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('images/bg1.jpg'); /* Make sure this file exists */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #000000;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #d400ff;
+    transform: scale(1.1);
+  }
+  
+  /* Section styles */
+  section {
+    
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 25px;
+    max-width: 800px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  }
+  
+  section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  }
+  
+  @media (hover: none) {
+    section:active {
+      transform: scale(1.02);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+  }
+  
+  /* Project hover animation */
+  #projects ul li {
+    margin: 10px 0;
+    transition: transform 0.4s ease;
+  }
+  
+  #projects ul li:hover {
+    transform: translateX(5px);
+    color: #0077cc;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(141, 141, 141);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  }
+  
