@@ -1,78 +1,278 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nixon A | WELCOME Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>NIXON A</h1>
-    <p>Junior Full Stack Developer</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Nixon A is a full stack developer building thoughtful, practical digital experiences."
+    />
+    <meta name="theme-color" content="#f4f2eb" />
+    <title>Nixon A — Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Nixon A, home"
+        ><span class="brand-mark">N<span>.</span></span
+        ><span>NIXON A<br /><small>FULL STACK DEVELOPER</small></span></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a class="nav-contact" href="#contact"
+          >Let's talk <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Highly motivated Full Stack Developer with experience in building modern web applications using MERN stack and more. Passionate about learning and delivering high-quality user-focused solutions.</p>
-  </section>
+    <main id="main">
+      <section class="hero shell" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot"></span> HELLO, I'M NIXON</p>
+          <h1 id="hero-title">Ideas made<br /><em>useful.</em></h1>
+          <p class="hero-description">
+            I’m a full stack developer who enjoys turning ideas into thoughtful
+            digital experiences that work beautifully.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work"
+              >Explore my work <span aria-hidden="true">↗</span></a
+            ><a class="text-link" href="#contact"
+              >Get in touch <span aria-hidden="true">→</span></a
+            >
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-top">
+            <span>INDEPENDENT THINKING</span><span>01 / 03</span>
+          </div>
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-center"><span>N</span><i>✳</i></div>
+          <div class="art-bottom">
+            <span>DESIGN WITH PURPOSE.<br />BUILD WITH CARE.</span
+            ><span>✳</span>
+          </div>
+        </div>
+        <div class="hero-foot">
+          <span>CREATIVE THINKING. PRACTICAL SOLUTIONS.</span
+          ><a href="#work"
+            >SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a
+          >
+        </div>
+      </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Expense Tracker (Kotlin)</strong> – Track daily expenses with visual insights.</li>
-      <li><strong>Wallpaper App (MERN)</strong> – Upload, manage, and customize wallpaper galleries.</li>
-      <li><strong>Food Inventory Management (MERN)</strong> – Track and manage restaurant food stock efficiently.</li>
-    </ul>
-  </section>
+      <section class="work section-pad" id="work" aria-labelledby="work-title">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">01 / SELECTED WORK</p>
+              <h2 id="work-title">A few things<br /><em>I've built.</em></h2>
+            </div>
+            <p>
+              Thoughtful solutions for everyday needs, from keeping track of
+              expenses to managing inventory.
+            </p>
+          </div>
+          <div class="projects">
+            <article class="project-card">
+              <div class="project-art art-expense" aria-hidden="true">
+                <div class="expense-window">
+                  <div class="window-bar">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="chart">
+                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                  </div>
+                  <div class="window-lines"><b></b><b></b><b></b></div>
+                </div>
+                <span class="art-label">A CLEARER PICTURE</span>
+              </div>
+              <div class="project-meta">
+                <span>01 / MOBILE APPLICATION</span><span>KOTLIN</span>
+              </div>
+              <h3>Expense Tracker</h3>
+              <p>
+                Track daily expenses and make sense of spending with visual
+                insights.
+              </p>
+            </article>
+            <article class="project-card">
+              <div class="project-art art-wallpaper" aria-hidden="true">
+                <div class="wallpaper-grid"><i></i><i></i><i></i><i></i></div>
+                <span class="art-label">MAKE SPACE FOR COLOR</span>
+              </div>
+              <div class="project-meta">
+                <span>02 / WEB APPLICATION</span><span>MERN STACK</span>
+              </div>
+              <h3>Wallpaper App</h3>
+              <p>
+                Upload, manage, and customize a collection of wallpapers in one
+                place.
+              </p>
+            </article>
+            <article class="project-card">
+              <div class="project-art art-inventory" aria-hidden="true">
+                <div class="inventory-sheet">
+                  <span>INVENTORY</span>
+                  <div><i></i><b></b><b></b></div>
+                  <div><i></i><b></b><b></b></div>
+                  <div><i></i><b></b><b></b></div>
+                </div>
+                <span class="art-label">A LITTLE MORE ORGANIZED</span>
+              </div>
+              <div class="project-meta">
+                <span>03 / WEB APPLICATION</span><span>MERN STACK</span>
+              </div>
+              <h3>Food Inventory Management</h3>
+              <p>A practical way to track and manage restaurant food stock.</p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <ul>
-      <li><strong>Surferwersway Pvt Ltd</strong> – Full Stack Developer (Jul - Aug 2024)</li>
-      <li><strong>8 Queens Software</strong> – Full Stack Developer (Dec 2023 - Mar 2024)</li>
-    </ul>
-  </section>
+      <section
+        class="about section-pad"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <div class="shell about-grid">
+          <div>
+            <p class="eyebrow">02 / A LITTLE ABOUT ME</p>
+            <h2 id="about-title">
+              Curious by nature.<br /><em>Developer by craft.</em>
+            </h2>
+          </div>
+          <div class="about-copy">
+            <p class="lead">
+              I’m Nixon, a full stack developer interested in building useful,
+              user-focused applications.
+            </p>
+            <p>
+              I enjoy learning new tools, working with people, and bringing
+              ideas to life through clean, considered solutions. My background
+              spans the MERN stack, mobile development, and a range of
+              programming languages.
+            </p>
+            <a class="text-link" href="#contact"
+              >Start a conversation <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
 
-  <section id="education">
-    <h2>Education</h2>
-    <ul>
-      <li>Master’s Degree in Computer Science – CGPA: 8.19 (2023 – 2025)</li>
-      <li>Bachelor’s Degree in Computer Science – CGPA: 8.12 (2020 – 2023)</li>
-      <li>HSC – 60% (2019 – 2020)</li>
-      <li>SSLC – 76% (2018 – 2019)</li>
-    </ul>
-  </section>
+      <section
+        class="experience section-pad"
+        id="experience"
+        aria-labelledby="experience-title"
+      >
+        <div class="shell experience-grid">
+          <div>
+            <p class="eyebrow">03 / BACKGROUND</p>
+            <h2 id="experience-title">
+              Always learning.<br /><em>Always building.</em>
+            </h2>
+          </div>
+          <div class="details">
+            <div class="detail-group">
+              <h3>Experience</h3>
+              <div class="detail-row">
+                <div>
+                  <strong>Full Stack Developer</strong
+                  ><span>Surferwersway Pvt Ltd</span>
+                </div>
+                <span>JUL — AUG 2024</span>
+              </div>
+              <div class="detail-row">
+                <div>
+                  <strong>Full Stack Developer</strong
+                  ><span>8 Queens Software</span>
+                </div>
+                <span>DEC 2023 — MAR 2024</span>
+              </div>
+            </div>
+            <div class="detail-group">
+              <h3>Education</h3>
+              <div class="detail-row">
+                <div>
+                  <strong>Master’s in Computer Science</strong
+                  ><span>CGPA 8.19</span>
+                </div>
+                <span>2023 — 2025</span>
+              </div>
+              <div class="detail-row">
+                <div>
+                  <strong>Bachelor’s in Computer Science</strong
+                  ><span>CGPA 8.12</span>
+                </div>
+                <span>2020 — 2023</span>
+              </div>
+            </div>
+            <div class="detail-group">
+              <h3>Tools &amp; skills</h3>
+              <ul class="skill-list">
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>HTML &amp; CSS</li>
+                <li>Kotlin</li>
+                <li>Laravel</li>
+                <li>MySQL</li>
+                <li>Python</li>
+                <li>Java</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <p><strong>Languages:</strong> HTML5, CSS, JavaScript, Java, C, C++, Python</p>
-    <p><strong>Frameworks:</strong> React.js, Laravel</p>
-    <p><strong>Tools:</strong> MySQL, SQLite, Word, PowerPoint, Excel</p>
-    <p><strong>Platforms:</strong> Visual Studio Code, Jupyter Notebook</p>
-    <p><strong>Soft Skills:</strong> Teamwork, Communication, Time Management, Creativity</p>
-  </section>
+      <section
+        class="contact section-pad"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="shell">
+          <div class="contact-top">
+            <p class="eyebrow"><span class="dot"></span> 04 / GET IN TOUCH</p>
+            <span class="contact-star" aria-hidden="true">✳</span>
+          </div>
+          <h2 id="contact-title">Have an idea?<br /><em>Let's talk.</em></h2>
+          <div class="contact-bottom">
+            <p>
+              Whether you have a project in mind or simply want to connect, I'd
+              love to hear from you.
+            </p>
+            <a class="button button-light" href="mailto:nixonjack2002@gmail.com"
+              >Send me an email <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:nixonjack2002@gmail.com">nixonjack2002@gmail.com</a></p>
-    <p>Phone: +91 9025024161</p>
-    <p>
-      <a href="https://github.com/NixonReign" target="_blank">GitHub</a> |
-      <a href="https://www.linkedin.com/in/nixon-a-a8b681316" target="_blank">LinkedIn</a>
-    </p>
-  </section>
-
-  <footer>
-    <p>© 2025 Nixon A. All rights reserved.</p>
-  </footer>
-</body>
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <a class="footer-brand" href="#top">NIXON A<span>.</span></a>
+        <p>Thoughtfully made, always evolving.</p>
+        <div class="footer-links">
+          <a
+            href="https://github.com/NixonReign"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub ↗</a
+          ><a
+            href="https://www.linkedin.com/in/nixon-a-a8b681316"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn ↗</a
+          ><a href="mailto:nixonjack2002@gmail.com">Email ↗</a>
+        </div>
+        <a class="back-top" href="#top">BACK TO TOP ↑</a>
+      </div>
+    </footer>
+  </body>
 </html>
